@@ -7,8 +7,8 @@ int x=300;
 }
 
 void draw(){
-void head();
-void face();
+head();
+face();
 }
 
 void head()
