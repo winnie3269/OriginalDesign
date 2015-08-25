@@ -1,4 +1,4 @@
-void void setup() 
+void setup() 
 {
 size(500,500);
 }
