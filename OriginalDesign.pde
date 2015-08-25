@@ -3,7 +3,6 @@
 void setup() 
 {
 size(500,500);
-int x=300;
 }
 
 void draw(){
@@ -19,6 +18,7 @@ ellipse(250,250,200,200);
 
 void face()
 {
+int x=300;
 fill(0,0,0);
 rect(230,150,60 , 60);
 rect(x, 180, 60, 60);
