@@ -1,6 +1,9 @@
+//Winnie Wang AP Comp Sci Block 4
+//Original Design 
 void setup() 
 {
 size(500,500);
+int x=300;
 }
 
 void draw(){
@@ -17,5 +20,7 @@ ellipse(250,250,200,200);
 void face()
 {
 fill(0,0,0);
-ellipse()
+rect(230,150,60 , 60);
+rect(x, y, 60, 60);
+x=x+10;
 }
