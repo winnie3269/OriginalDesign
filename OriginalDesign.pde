@@ -1,33 +1,28 @@
 //Winnie Wang AP Comp Sci Block 4
 //Original Design 
- r = random(0,255);
- g = random(0,255);
- b = random(0,255);
-
+float x=0;
+float y=0;
 void setup() 
 {
-size(500,500);
+size(600,600, P3D);
+background(0);
 }
 void draw()
 {
-void head();
-void face();
+  ball();
+  objects();
 }
-
-void head()
+void ball()
 {
-fill(100,80,60,255);
-ellipse(250,250,200,200);
+translate(-100,0,0);
+rotateX(x);
+rotateY(y);
+sphere(50);
 }
-void face()
+void objects()
 {
-int x=300;
-fill(100,50,80);
-rect(230,150,, 60);
-rect(x, 50, 60, 60);
-x=x+10;
-}
-void mousePressed()
-{
- background(r,g,b);
+translate(-100,0,0);
+box(60);
+translate (-100,0,0);
+box(60);
 }
