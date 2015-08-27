@@ -10,6 +10,7 @@ background(255);
 head();
 body();
 features();
+belly();
 }
 void head()
 {
@@ -23,7 +24,7 @@ void body()
 {
 fill(#8E7E7E);
 noStroke();
-ellipse(250,500,335,550);
+ellipse(250,500,350,550);
 }
 
 void features()
@@ -44,4 +45,9 @@ ellipse(252,310,60,90);
 fill(#E56868);
 ellipse(130,136,80,52);
 ellipse(373,136,80,52);
+}
+void belly()
+{
+fill(#D2E5ED)
+ellipse(250,500,200,350);
 }
