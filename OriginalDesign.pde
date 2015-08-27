@@ -7,8 +7,8 @@ size(500,500);
 void draw()
 {
 background(255);
-body();
 head();
+body();
 features();
 }
 void head()
