@@ -24,9 +24,8 @@ void body()
 {
 fill(#8E7E7E);
 noStroke();
-ellipse(250,500,350,550);
+ellipse(250,530,370,550);
 }
-
 void features()
 {
 stroke(0);
