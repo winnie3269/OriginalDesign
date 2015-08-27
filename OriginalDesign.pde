@@ -23,7 +23,7 @@ void body()
 {
 fill(#8E7E7E);
 noStroke();
-ellipse(250,400,300,350);
+ellipse(250,400,350,400);
 }
 
 void features()
