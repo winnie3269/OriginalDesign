@@ -41,5 +41,5 @@ ellipse(373,136,80,52);
 void body()
 {
 fill(#8E7E7E);
-ellipse(250,100,100,200);
+ellipse(250,400,200,200);
 }
