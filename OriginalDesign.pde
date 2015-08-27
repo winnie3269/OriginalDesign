@@ -1,14 +1,12 @@
 //Winnie Wang AP Comp Prog Block 4
 //Original Design
-PImage leaves;
 void setup()
 {
 size(852,480);
-leaves= loadImage("eucalyptus.jpg");
 }
 void draw()
 {
-	background(leaves);
+	background(255);
 	head();
 	features();
 }
