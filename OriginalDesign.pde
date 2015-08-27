@@ -2,13 +2,14 @@
 //Original Design
 void setup()
 {
-size(852,480);
+size(500,500);
 }
 void draw()
 {
-	background(255);
-	head();
-	features();
+background(255);
+head();
+features();
+body();
 }
 void head()
 {
@@ -36,4 +37,9 @@ ellipse(252,310,60,90);
 fill(#E56868);
 ellipse(130,136,80,52);
 ellipse(373,136,80,52);
+}
+void body()
+{
+fill(#8E7E7E);
+ellipse(250,100,100,200);
 }
