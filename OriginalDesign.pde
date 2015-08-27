@@ -6,7 +6,7 @@ size(500,500);
 }
 void draw()
 {
-background(255);
+background(#37A46B);
 head();
 body();
 features();
