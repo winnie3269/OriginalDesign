@@ -49,5 +49,6 @@ ellipse(373,136,80,52);
 void belly()
 {
 fill(#D2E5ED)
-ellipse(250,500,200,350);
+noStroke();
+ellipse(250,550,180,300);
 }
