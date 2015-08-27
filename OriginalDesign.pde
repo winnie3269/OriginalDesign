@@ -1,6 +1,5 @@
 //Winnie Wang AP Comp Sci Block 4
 //Original Design 
-//Winnie Wang AP Comp Prog Block 4
 PImage leaves;
 void setup()
 {
