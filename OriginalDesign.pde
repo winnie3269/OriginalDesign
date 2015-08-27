@@ -22,6 +22,7 @@ arc(370,140,120,100,PI/1.7,3*PI/1.1);
 void body()
 {
 fill(#8E7E7E);
+noStroke();
 ellipse(250,400,200,300);
 }
 
