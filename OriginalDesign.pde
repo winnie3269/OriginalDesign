@@ -3,11 +3,12 @@
 PImage leaves;
 void setup()
 {
-size(500,500);
+size(852,480);
 leaves= loadImage("eucalyptus.jpg");
 }
 void draw()
 {
+	background(leaves);
 	head();
 	features();
 }
