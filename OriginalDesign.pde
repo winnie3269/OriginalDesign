@@ -29,8 +29,7 @@ ellipse(250,500,350,550);
 
 void features()
 {
-//stroke(0,0,0);
-noStroke();
+stroke(0);
 fill(255,255,255);
 ellipse(169,260,60,85);
 ellipse(340,260,60,85);
