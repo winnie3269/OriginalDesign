@@ -11,11 +11,6 @@ body();
 head();
 features();
 }
-void body()
-{
-fill(#8E7E7E);
-ellipse(250,400,300,200);
-}
 void head()
 {
 fill(#8E7E7E);
@@ -24,6 +19,12 @@ ellipse(250,276,335,280);
 arc(130,140,120,100 ,PI/1.7,3*PI/1.1);
 arc(370,140,120,100,PI/1.7,3*PI/1.1);
 }
+void body()
+{
+fill(#8E7E7E);
+ellipse(250,400,300,200);
+}
+
 void features()
 {
 stroke(0,0,0);
