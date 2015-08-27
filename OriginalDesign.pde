@@ -7,9 +7,14 @@ size(500,500);
 void draw()
 {
 background(255);
+body();
 head();
 features();
-body();
+}
+void body()
+{
+fill(#8E7E7E);
+ellipse(250,400,300,200);
 }
 void head()
 {
@@ -37,9 +42,4 @@ ellipse(252,310,60,90);
 fill(#E56868);
 ellipse(130,136,80,52);
 ellipse(373,136,80,52);
-}
-void body()
-{
-fill(#8E7E7E);
-ellipse(250,400,300,200);
 }
